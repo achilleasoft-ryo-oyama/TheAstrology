@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="first_short_array">
+        <item>運気絶好調！\n新しい事にチャレンジすると良いでしょう。</item>
+        <item>恋愛運絶好調！\n映画館で良いことがある暗示です。</item>
+        <item>特に恋愛運の上昇傾向！\n気になる人に連絡すると良いかも？</item>
+        <item>金運が良い一日です！\n思わぬ収穫がある暗示が出ています。</item>
+        <item>健康運が非常に良いです！\n公園やジムなどに行くと更に吉。</item>
+    </string-array>
+    <string-array name="second_short_array">
+        <item>午後から仕事運上昇の気配あり！\nちょっとしたオシャレで運気が上がります。</item>
+        <item>全体的にやや好調の運気です！\n難しい事に挑戦すると良い結果に繋がるかも？</item>
+        <item>健康運と仕事運が良いです！\n散歩をすると集中力が高まる暗示が出ています。</item>
+        <item>午前に健康運が上昇します！\n朝のスポーツが特に良さそうです。</item>
+        <item>恋愛運がやや良い傾向があります！\n贈り物をするには良い日でしょう。</item>
+    </string-array>
+    <string-array name="third_short_array">
+        <item>平穏な運気の暗示です。\n外出すると恋愛運が上昇するでしょう。</item>
+        <item>総合運が並の気配があります。\nいつも通りの生活を心がけましょう。</item>
+        <item>仕事運がやや好調です。\nいつもより周りの人とお話すると良いでしょう。</item>
+        <item>健康運以外はやや好調です。\n趣味に注力すると運気の低下が防げます。</item>
+        <item>仕事運と健康運がやや良いです\n目の前の出来ることから頑張りましょう。</item>
+    </string-array>
+    <string-array name="fourth_short_array">
+        <item>金運にやや問題あり。\n衝動買いは控えた方が良いでしょう。</item>
+        <item>総合運がジワジワ低下していきます。\n友人と行動をすると良いでしょう。</item>
+        <item>恋愛運が午前が悪く、午後に良くなります。\n夜に気になる人に電話を掛けるといいかも。</item>
+        <item>仕事運の人間関係の運気が悪い日です。\n発言には十分に気を配りましょう。</item>
+        <item>総合運がやや悪いです。\n落とし物・忘れ物に気をつけると良いでしょう。</item>
+    </string-array>
+    <string-array name="fifth_short_array">
+        <item>健康運が不調気味……。\n怪我をしないよう気をつけて。</item>
+        <item>恋愛運下降傾向あり……。\n大きな決断は別の日にした方がいいかも。</item>
+        <item>全体的な運気が良くない日です……。\nなるべく家にいた方が良いかも。</item>
+        <item>仕事運がかなり悪いです……。\n慎重に頑張りましょう。</item>
+        <item>総合運と金運が下降傾向です……。\n普段より慎重な行動があなた自身を助けます。</item>
+    </string-array>
+
+</resources>

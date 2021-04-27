@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- ステータスバーの色 -->
+        <item name="android:colorPrimaryDark">#8E44AD</item>
+        <!-- 背景の色 -->
+        <item name="android:windowBackground">#ecf0f1</item>
+        <!-- ナビゲーションバーの色 -->
+        <item name="android:navigationBarColor">#8E44AD</item>
+    </style>
+</resources>
+

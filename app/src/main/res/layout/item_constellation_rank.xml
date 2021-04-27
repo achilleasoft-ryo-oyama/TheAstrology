@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constellation_rank_item"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <TextView
+        android:id="@+id/list_rank_text"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:text="@string/sample_rank_text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/list_constellation_text"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_weight="3"
+        android:gravity="center_vertical"
+        android:text="@string/sample_constellation_text"
+        android:textSize="24sp" />
+
+</LinearLayout>

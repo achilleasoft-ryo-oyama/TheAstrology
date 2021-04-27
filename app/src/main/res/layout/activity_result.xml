@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.achilleasoft.TheAstrology.activity.ResultActivity" >
+
+    <View
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.1" />
+
+    <TextView
+        android:id="@+id/rank_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:layout_marginTop="10dp"
+        android:text="@string/rank_title"
+        android:textSize="26sp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="25dp"
+            android:layout_gravity="center"
+            android:background="#9CCC65" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/rank"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="16sp"
+            android:autoSizeMaxTextSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/user_rank" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="25dp"
+            android:layout_gravity="center"
+            android:background="#9CCC65" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/rank_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_gravity="bottom" />
+
+</LinearLayout>
