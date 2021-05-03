@@ -20,7 +20,6 @@ class MainActivity : Activity() {
                 "おひつじ座", "おうし座", "ふたご座", "かに座", "しし座", "おとめ座",
                 "てんびん座", "さそり座", "いて座", "やぎ座", "みずがめ座", "うお座")
         val constellationNumberPicker = findViewById<NumberPicker>(R.id.constellation_picker)
-        constellationNumberPicker.displayedValues = null
         constellationNumberPicker.minValue = 0
         constellationNumberPicker.maxValue = 11
         constellationNumberPicker.value = 0
