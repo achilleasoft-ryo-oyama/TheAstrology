@@ -1,10 +1,12 @@
 package com.achilleasoft.TheAstrology.activity
 
 import android.app.Activity
+import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.annotation.ColorInt
 import com.achilleasoft.TheAstrology.R
 
 class DetailActivity : Activity() {
@@ -46,6 +48,7 @@ class DetailActivity : Activity() {
             }
         }
         setStars(rank.toInt())
+        setLuckyColor()
     }
 
     private fun setAWord(array: Array<String>, arraySize: Int) {
@@ -126,5 +129,30 @@ class DetailActivity : Activity() {
             val viewId = resources.getIdentifier(idString, "id", packageName)
             findViewById<ImageView>(viewId).visibility = View.VISIBLE
         }
+    }
+
+    private fun setLuckyColor() {
+        val colorMap = getRandomColorMap()
+        val keys = colorMap.keys.shuffled()
+        for(i in keys) {
+            findViewById<TextView>(R.id.lucky_color_text).text = i
+            findViewById<View>(R.id.lucky_color_image).setBackgroundColor(colorMap[i]!!)
+            return
+        }
+    }
+
+    private fun getRandomColorMap(): Map<String, Int> {
+        return mapOf("White" to 0xFFFFFFFF.toInt(),
+                "Black" to 0xFF000000.toInt(),
+                "Red" to 0xFFF44336.toInt(),
+                "Green" to 0xFF4CAF50.toInt(),
+                "Blue" to 0xFF2196F3.toInt(),
+                "Orange" to 0xFFFF9800.toInt(),
+                "Purple" to 0xFF9C27B0.toInt(),
+                "Yellow" to 0xFFFFEB3B.toInt(),
+                "Brown" to 0xFF795548.toInt(),
+                "Grey" to 0xFF9E9E9E.toInt(),
+                "Light Blue" to 0xFF03A9F4.toInt(),
+                "Pink" to 0xFFE91E63.toInt())
     }
 }
