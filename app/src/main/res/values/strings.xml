@@ -19,4 +19,5 @@
     <string name="money_title_text">金運</string>
     <string name="work_title_text">仕事運</string>
     <string name="health_title_text">健康運</string>
+    <string name="lucky_color_title">ラッキーカラー</string>
 </resources>
